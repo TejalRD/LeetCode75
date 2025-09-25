@@ -12,6 +12,4 @@ class Solution:
             if s[i-k] in vowels:
                 curr-=1
             max_vowels = max(max_vowels, curr)
-            if max_vowels == k:
-                return max_vowels
         return max_vowels
